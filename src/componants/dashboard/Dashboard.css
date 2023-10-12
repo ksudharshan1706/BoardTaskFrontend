@@ -460,6 +460,7 @@ background: #E9F9EB;
     border: none;
     /* margin-top: 100px; */
     cursor: pointer;
+    background-color:#f8faff;
 }
 .hamburgerItems{
     position: absolute;
@@ -469,7 +470,7 @@ background: #E9F9EB;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background-color: rgb(255, 253, 253);
+    background-color:#f8faff;
     overflow: hidden;
     /* height: 500px; */
     margin-top: 400px;
