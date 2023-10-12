@@ -295,9 +295,10 @@ line-height: normal;
 
 .round{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    gap: 10px;
+    gap: 15px;
+    width: 250px;
 }
 
 
@@ -626,6 +627,10 @@ background: #E9F9EB;
     }
     .round{
         width: 100%;
+        /* width: 100%; */
+        /* min-width: 250px;
+        border: 2px solid ; */
+        /* margin-left: 25%; */
         /* border: 2px solid; */
     }
     .douhnutbarContainer{

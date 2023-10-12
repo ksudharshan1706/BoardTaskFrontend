@@ -301,7 +301,7 @@ const DashboardRight = () => {
         <div className='dashboardBottom'>
             <div className='douhnutbar'>
                 <div className='douhnuttop'>
-                    <div style={{marginLeft:"40px"}}>Top products</div>
+                    <div style={{marginLeft:"30px"}}>Top products</div>
                     <div className='duration' style={{marginRight:"40px"}}>May - June 2021</div>
                 </div>
                 <div className='douhnutbarContainer'>
