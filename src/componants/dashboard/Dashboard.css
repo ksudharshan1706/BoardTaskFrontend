@@ -292,15 +292,22 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
-
 .round{
     display: flex;
     /* justify-content: center; */
     align-items: center;
     gap: 15px;
-    width: 250px;
+    width: 100px;
+    /* width: 250px; */
 }
 
+.douhnutround{
+    /* display: flex;
+    align-items: center;
+    gap: 15px; */
+    width: 250px;
+    /* width: 250px; */
+}
 
 .roundbar{
     width: 10px;
@@ -502,6 +509,27 @@ background: #E9F9EB;
 .minisignout{
     display: none;
 }
+
+.duration{
+    color: var(--Secondary-Text, #858585);
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.profilenme{
+color: #000;
+font-family: Figtree;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; 
+/* position: relative;
+left: 5%; */
+margin-top: -20px;
+margin-left:-60%;
+}
 @media only screen and (max-width: 1440px) {
     .dashboardLeft{
         height: 1500px;
@@ -509,6 +537,11 @@ background: #E9F9EB;
 }
 
 @media only screen and (max-width: 1300px) {
+    .profilenme{
+        color: #000;
+        margin-top: 20px;
+        margin-left:0px !important;
+        }
     .disappear{
         display: none;
     }
@@ -625,12 +658,20 @@ background: #E9F9EB;
     .douhnutlabels{
         width: 100% !important;
     }
-    .round{
-        width: 100%;
+    .barround{
         /* width: 100%; */
-        /* min-width: 250px;
-        border: 2px solid ; */
-        /* margin-left: 25%; */
+        /* width: 100%; */
+        min-width: 250px;
+        /* border: 2px solid ; */
+        margin-left: 15%;
+        /* border: 2px solid; */
+    }
+    .round{
+        /* width: 100%; */
+        /* width: 100%; */
+        min-width: 250px;
+        /* border: 2px solid ; */
+        /* margin-left: 10%; */
         /* border: 2px solid; */
     }
     .douhnutbarContainer{

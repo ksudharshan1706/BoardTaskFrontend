@@ -19,7 +19,7 @@ import { useNavigate } from 'react-router-dom'
 import { logOut } from '../redux/userSlice'
 const Barlabels = ({data}) =>{
     return (
-        <div className='round'>
+        <div className='round' style={{minWidth:"0px"}}>
             <div className='roundbar' style={{backgroundColor:data.color}}></div>
             <div className='roundDesc'>{data.label}</div>
         </div>
@@ -315,7 +315,7 @@ const DashboardRight = () => {
             </div>
             {currentProfile?
              <div className='douhnutbar2'>                
-                <div >
+                <div className='profilenme'>
                     <div>{currentProfile.name}</div>
                 </div>
                 <div className='userInfo'>
