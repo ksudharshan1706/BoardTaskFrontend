@@ -3,10 +3,12 @@ width:40%;
 height:auto;
 min-width: 400px;
 background-color:white;
-margin:25% 0px 0px 25%;
+/* margin:25% 0px 0px 25%; */
 /* position:sticky */
 border-radius: 20px;
 position: relative;
+left: 30%;
+top: 15%;
 }
 
 .header{
@@ -40,6 +42,7 @@ line-height: 32px; /* 160% */
       display: flex;
       justify-content: center;
       align-items: center;
+      margin-left: 5%;
 }
 
 .section{
@@ -52,6 +55,11 @@ line-height: 32px; /* 160% */
     font-weight: 600;
     line-height: 24px; /* 150% */
     text-underline-position: under;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .addformlabel{
@@ -155,7 +163,7 @@ line-height: 24px; /* 150% */
         background-color:white;
         border-radius: 20px;
         position: relative;
-        left: -100px;
+        left: 7%;
     }
 
 }
@@ -171,7 +179,7 @@ line-height: 24px; /* 150% */
         background-color:white;
         border-radius: 20px;
         position: relative;
-        left: -80px;
+        left: 4%;
         /* display: none; */
     }
     .labelInput{
@@ -187,7 +195,7 @@ line-height: 24px; /* 150% */
 }
 
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 374px) {
 
     .profilemaincontainer{
         /* width:50% !important; */
@@ -197,7 +205,7 @@ line-height: 24px; /* 150% */
         background-color:white;
         border-radius: 20px;
         position: relative;
-        left: -22%;
+        left: 5% !important;
         /* display: none; */
     }
     .nextbutton{

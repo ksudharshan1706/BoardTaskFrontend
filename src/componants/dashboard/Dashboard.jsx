@@ -38,13 +38,13 @@ const Dashboard = () => {
             <input className='searchcontent' type='text' placeholder='Search...' style={{border:"none"}}/>
             <img src={search}/>
         </div>
-      <div style={{width:"200px",display:"flex",justifyContent:"space-evenly",alignItems:"center",marginRight:"10px"}}>
+      <div className='navmenu'>
         <MenuIcon onClick={Toggle} style={{cursor:"pointer"}}/>
         <div className='avatar'>
         <NotificationsNoneIcon/>
         </div>
         <div className='avatar'>
-          <Avatar alt="Remy Sharp" src={currentUser?currentUser.img :noavatar} onClick={logoutpop}/>
+          <Avatar alt="Remy Sharp" src={currentUser?currentUser.img :noavatar} onClick={logoutpop} style={{cursor:"pointer"}}/>
         </div>
         {signout?<div className='logoutStyle'>
               <button className='hamburgerItem' onClick={SignOut}>SignOut</button>

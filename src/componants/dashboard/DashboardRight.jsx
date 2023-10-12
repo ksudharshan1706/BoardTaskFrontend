@@ -176,8 +176,18 @@ const DashboardRight = () => {
                     </div>
                     <hr/>
                     <div className='bodyHeader'>
-                        <div className='section'>Basic</div>
-                        <div className='section'>Contact</div>
+                        <div className='section'>
+                            <div>Basic</div>
+                            {basic? <div style={{width:"80%",height:"5px",backgroundColor:"#4285F4",borderRadius:"10px"}}></div>
+                            :
+                            <div style={{width:"80%",height:"5px",backgroundColor:"#D9D9D9",borderRadius:"10px"}}></div>}
+                        </div>
+                        <div className='section'>
+                            <div>Contact</div>
+                            {basic? <div style={{width:"80%",height:"5px",backgroundColor:"#D9D9D9",borderRadius:"10px"}}></div>
+                            :
+                            <div style={{width:"80%",height:"5px",backgroundColor:"#4285F4",borderRadius:"10px"}}></div>}
+                        </div>
                     </div>
                     {basic   ?
                          <div>
@@ -244,7 +254,7 @@ const DashboardRight = () => {
                 </div>
                     <NotificationsNoneIcon/>
                     {/* <Avatar alt="Remy Sharp" src={noavatar} /> */}
-                    <Avatar alt="Remy Sharp" src={currentUser?currentUser.img :noavatar} onClick={logoutpop}/>
+                    <Avatar alt="Remy Sharp" src={currentUser?currentUser.img :noavatar} onClick={logoutpop} style={{cursor:"pointer"}}/>
                     {signout?<div className='logoutStyle'>
                         <button className='hamburgerItem' onClick={SignOut}>SignOut</button>
                         </div>:null
